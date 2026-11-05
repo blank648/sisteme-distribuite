@@ -22,17 +22,12 @@ Rezolvări pentru laboratoarele de **Sisteme Distribuite** implementate în Go (
   - `ex6.go`: Sistem distribuit: cursă a doi roboți identici sincronizați, cu select în observer
   - `ex7.go`: Sistem distribuit: doi roboți cu schimb continuu de coordonate 2D și raportare către observer
   - `main.go`: Meniu consolă pentru rularea exercițiilor 1-7
-
-## Rulare
-
-Pentru a rula laboratorul 1:
-```bash
-cd lab1
-go run .
-```
-
-Pentru a rula laboratorul 2:
-```bash
-cd lab2
-go run .
-```
+- **lab3/**: Sincronizarea ceasurilor în sisteme distribuite
+  - `ex1.go`: Algoritmul lui Cristian pentru sincronizarea ceasurilor fizice
+  - `ex2.go`: Ceasuri logice Lamport pe inel de 3 procese (ordonare totală a evenimentelor)
+  - `main.go`: Meniu consolă
+- **lab4/**: Algoritmi de alegere a liderului (Leader Election)
+  - `ex1.go`: Algoritmul de Flooding / LCR pe inel unidirecțional (cu mecanism de terminare)
+  - `ex2.go`: Algoritmul de Flooding pentru grafuri tare conexe (`Flooding_Gen(max)`)
+  - `ex3.go`: Algoritmul de Flooding de medie pentru vot majoritar (`Flooding(Maj)`)
+  - `main.go`: Meniu consolă
