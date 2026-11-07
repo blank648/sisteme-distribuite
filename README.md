@@ -31,3 +31,6 @@ Rezolvări pentru laboratoarele de **Sisteme Distribuite** implementate în Go (
   - `ex2.go`: Algoritmul de Flooding pentru grafuri tare conexe (`Flooding_Gen(max)`)
   - `ex3.go`: Algoritmul de Flooding de medie pentru vot majoritar (`Flooding(Maj)`)
   - `main.go`: Meniu consolă
+- **lab5/**: Algoritmul de Averaging pentru roboți mobili autonomi (consens geometric distribuit)
+  - `main.go`: Citire coordonate din fișier, simulare concurentă a roboților prin canale și mediere pe bază de rază de vizibilitate
+  - `input.txt`: Fișier de test cu pozițiile inițiale ale roboților
